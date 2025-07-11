@@ -123,3 +123,55 @@ main section{
     display: flex;
     gap: 24px;
 }
+
+/* ?resume section styles */
+.resume-container{
+    display: flex;
+    gap: 24px;
+}
+.resume-column-tittle{
+    font-weight: bold;
+    font-size: 30px;
+
+}
+.experience-tittle{
+    font-weight: bold;
+    font-size: 25px;
+
+}
+.experience-sub-tittle{
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+
+}
+.experience-description{
+    color: #757575;
+}
+.resume-download-cv{
+    margin-top: 50px;
+}
+
+/* Footer styles*/
+footer{
+    padding: 130px;
+    display: flex;
+    gap: 100px;
+}
+
+.footer-column{
+    width: 50%s;
+}
+
+footer input[type="text"], footer input[type="email"], footer textarea{
+    height: 64px;
+    width: 100%;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+
+}
