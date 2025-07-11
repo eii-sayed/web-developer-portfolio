@@ -30,6 +30,9 @@
     font-size: 18px;
     color: #757575;
 }
+.text-center{
+    text-align: center;
+}
 
 /* Header */
 .header{
@@ -90,14 +93,16 @@ main{
     max-width: 1140px;
     margin: 0 auto;
 }
-
+main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
 
 /* qBout styles */
 .about{
     border-radius: 10px;
     padding: 130px 150px;
     text-align: center;
-    margin-top: 130px;
 }
 .about-items{
     display: flex;
@@ -105,4 +110,16 @@ main{
 }
 .item-description{
     font-weight: 600;
+}
+
+/* skills section styles */
+.skill{
+    padding:104px 33px 30px 33px ;
+    box-shadow:0px 4px 50px 0px rgba(0,0,0,0.06) ;
+    border-radius: 5px;
+}
+
+.skills-container{
+    display: flex;
+    gap: 24px;
 }
